@@ -49,7 +49,11 @@ a { color: inherit; }
 
 :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 
-/* ---------- Logo mark (recreated from brand PNG) ---------- */
+/* ---------- Logo ---------- */
+.logo-img { height: 42px; width: auto; display: block; }
+.footer .logo-img { height: 52px; }
+
+/* legacy mark styles (kept for safety) */
 .mark { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
 .mark .bar { width: 3px; height: 30px; border-radius: 2px; background: var(--gold-grad); }
 .mark .mark-text { display: flex; flex-direction: column; line-height: 1; }
@@ -90,7 +94,7 @@ a { color: inherit; }
 .nav-cta {
   font-family: var(--font-display); font-weight: 700; font-size: 0.82rem;
   letter-spacing: 0.06em; text-transform: uppercase;
-  color: var(--ink) !important; background: var(--gold-grad-h);
+  color: var(--ink) !important; background: var(--white);
   padding: 10px 18px; border-radius: 8px; text-decoration: none;
 }
 .nav-toggle { display: none; background: none; border: 0; cursor: pointer; padding: 8px; }
@@ -136,9 +140,9 @@ a { color: inherit; }
 
 .hero h1 {
   font-family: var(--font-display); font-weight: 800;
-  font-size: clamp(2.5rem, 5.6vw, 4.3rem);
-  line-height: 1.04; letter-spacing: -0.02em;
-  margin: 22px 0 22px; max-width: 15ch;
+  font-size: clamp(2.4rem, 5.2vw, 4.1rem);
+  line-height: 1.08; letter-spacing: -0.02em;
+  margin: 22px 0 22px; max-width: none;
 }
 .hero h1 .gold {
   background: var(--gold-grad-h);
@@ -166,7 +170,8 @@ a { color: inherit; }
 .hero-meta {
   margin-top: 58px; padding-top: 26px; border-top: 1px solid var(--line-dark);
   display: flex; flex-wrap: wrap; gap: 12px 40px;
-  font-size: 0.82rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted-dark);
+  font-family: var(--font-display); font-weight: 700;
+  font-size: 0.85rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--white);
 }
 
 /* ---------- Light sections ---------- */
