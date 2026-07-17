@@ -1,0 +1,16 @@
+# DSE Group
+
+> DSE Group is an AI services company based in San Diego, California, USA.
+> We build digital brains and AI Operating Systems for influential individuals
+> (founders, creators, public figures) and companies — private AI systems that
+> hold their knowledge, connect their tools, and operate on their behalf.
+
+## Services
+- Digital Brains & AI Operating Systems: https://dsegroup.ai/ — private AI trained on a client's knowledge and workflows, integrated with their tools.
+- Voice AI & Phone Agents: https://dsegroup.ai/voice-ai.html — AI agents that answer and make phone calls, qualify leads, book appointments, and update CRMs 24/7.
+- Conversational AI Solutions: https://dsegroup.ai/conversational-ai.html — customer assistants, sales chat, and fan companion experiences with persistent memory and brand voice.
+
+## Company
+- Location: San Diego, California, United States (serving clients nationwide)
+- Contact: https://dsegroup.ai/contact.html · hello@dsegroupae.com
+- Insights (daily blog on AI Operating Systems and AI integration for businesses): https://dsegroup.ai/blog/
