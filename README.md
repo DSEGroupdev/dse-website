@@ -19,7 +19,7 @@ Archivo + Inter type, dark neural-network hero, light content sections.
    - `HOSTINGER_FTP_SERVER` (e.g. `ftp.dsegroup.ai` — from hPanel → Files → FTP Accounts)
    - `HOSTINGER_FTP_USERNAME`
    - `HOSTINGER_FTP_PASSWORD`
-3. Every push to `main` auto-deploys to `public_html/` via `.github/workflows/deploy.yml`.
+3. Every push to `main` auto-deploys to `public_html/` via `deploy/github-workflow-deploy.yml` (move it to `.github/workflows/deploy.yml` once your token has the workflow scope).
 
 ## Contact form
 The form posts to FormSubmit (`https://formsubmit.co/hello@dsegroupae.com`) — no backend needed.
