@@ -1,0 +1,24 @@
+# Daily blog cron. To activate: move this file to .github/workflows/daily-blog.yml
+# (requires a token with `workflow` scope) and add ANTHROPIC_API_KEY as a repo secret.
+name: Daily blog post
+on:
+  schedule:
+    - cron: "0 15 * * *"   # 7:00 AM Pacific
+  workflow_dispatch:
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate and publish post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 automation/generate_post.py
+      - name: Commit
+        run: |
+          git config user.name "dse-blog-bot"
+          git config user.email "hello@dsegroupae.com"
+          git add -A
+          git commit -m "Daily insight: $(date +%F)" && git push

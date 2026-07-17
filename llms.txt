@@ -6,7 +6,7 @@
 > hold their knowledge, connect their tools, and operate on their behalf.
 
 ## Services
-- Digital Brains & AI Operating Systems: https://dsegroup.ai/, private AI trained on a client's knowledge and workflows, integrated with their tools.
+- Digital Brains & AI Operating Systems: https://dsegroup.ai/ai-operating-system.html, private AI trained on a client's knowledge and workflows, integrated with their tools.
 - Voice AI & Phone Agents: https://dsegroup.ai/voice-ai.html, AI agents that answer and make phone calls, qualify leads, book appointments, and update CRMs 24/7.
 - Conversational AI Solutions: https://dsegroup.ai/conversational-ai.html, customer assistants, sales chat, and fan companion experiences with persistent memory and brand voice.
 
