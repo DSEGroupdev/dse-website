@@ -118,7 +118,11 @@ a { color: inherit; }
 }
 .hero.hero-sub { padding: 150px 0 90px; }
 #neural { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0.9; }
-.hero .wrap { position: relative; z-index: 2; }
+.hero .wrap { position: relative; z-index: 2; text-align: center; }
+.hero h1 { margin-left: auto; margin-right: auto; }
+.hero .lede { margin-left: auto; margin-right: auto; }
+.hero-actions { justify-content: center; }
+.hero-meta { justify-content: center; }
 
 .eyebrow {
   display: inline-flex; align-items: center; gap: 12px;
