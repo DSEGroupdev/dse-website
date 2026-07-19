@@ -336,5 +336,5 @@ a { color: inherit; }
   white-space: nowrap; transition: color 0.2s;
 }
 .client-logo:hover { color: rgba(255,255,255,0.85); }
-.client-logo-img { height: 34px; width: auto; opacity: 0.55; filter: grayscale(1) brightness(1.6); transition: opacity 0.2s; }
+.client-logo-img { height: 32px; width: auto; opacity: 0.6; transition: opacity 0.2s; }
 .client-logo-img:hover { opacity: 0.95; }
