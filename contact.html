@@ -80,8 +80,9 @@
                FormSubmit relays submissions to your email with no backend.
                First submission triggers a one-time confirmation email to you. -->
           <form class="form reveal" action="https://formsubmit.co/hello@dsegroupae.com" method="POST">
+            <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_subject" value="New inquiry from dsegroup.ai" />
-            <input type="hidden" name="_next" value="https://dsegroup.ai/contact.html?sent=1" />
+            <input type="hidden" name="_next" value="https://dsegroup.ai/thanks.html" />
             <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
             <label>Name
               <input type="text" name="name" required autocomplete="name" />
