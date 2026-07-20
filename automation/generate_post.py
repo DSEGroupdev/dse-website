@@ -44,6 +44,26 @@ def call_model(topic: str) -> dict:
     assert "\u2014" not in json.dumps(post) and "\u2013" not in json.dumps(post), "dash rule violated"
     return post
 
+
+def ping_indexnow(urls) -> None:
+    """Best-effort instant-index ping (Bing & friends). Never blocks publishing."""
+    try:
+        key = (ROOT / "automation" / "indexnow-key.txt").read_text().strip()
+        req = urllib.request.Request(
+            "https://api.indexnow.org/indexnow",
+            headers={"Content-Type": "application/json; charset=utf-8"},
+            data=json.dumps({
+                "host": "dsegroup.ai",
+                "key": key,
+                "keyLocation": f"{SITE}/{key}.txt",
+                "urlList": urls,
+            }).encode(),
+        )
+        with urllib.request.urlopen(req, timeout=15) as r:
+            print(f"indexnow ping: HTTP {r.status}")
+    except Exception as e:
+        print(f"indexnow ping skipped: {e}")
+
 def render(post: dict, today: str) -> str:
     tpl = (ROOT / "blog" / "posts" / "what-is-an-ai-operating-system.html").read_text()
     # strip the template's article body, keep the page chrome
@@ -90,6 +110,7 @@ def publish(post: dict) -> None:
     entry = f"  <url><loc>{SITE}/blog/posts/{post['slug']}.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>\n"
     sm.write_text(sm.read_text().replace("</urlset>", entry + "</urlset>"))
     print(f"published: blog/posts/{post['slug']}.html")
+    ping_indexnow([f"{SITE}/blog/posts/{post['slug']}.html", f"{SITE}/blog/"])
 
 if __name__ == "__main__":
     topic = sys.argv[1] if len(sys.argv) > 1 else "pick the next topic from the rotation"
