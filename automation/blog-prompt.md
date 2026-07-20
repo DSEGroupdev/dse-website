@@ -29,7 +29,24 @@ AUDIENCE AND ANGLE
 TRUTHFULNESS
 - NEVER invent statistics, percentages, study results, or customer stories.
   If you cannot support a number, write the claim qualitatively instead.
+- Never write "research shows" or "studies show" without a named source. If
+  you have no source, make the argument from reasoning the reader can verify
+  themselves, or drop the claim.
 - Never promise specific prices or timelines on DSE Group's behalf.
+
+DEPTH (this is what separates publish from discard)
+- The article must beat the generic top-of-Google answer on its topic. Filler
+  that any AI tool would produce is a failed draft.
+- Include at least ONE of these, fully developed:
+  (a) a worked scenario with plausible concrete details, walked step by step,
+  (b) a checklist or set of exact questions the reader can use this week,
+  (c) a non-obvious point or honest trade-off that a vendor blog would
+      normally avoid admitting.
+- Write from a practitioner's point of view: what actually breaks, what
+  owners get wrong, what the real decision looks like. DSE Group builds these
+  systems; the article should sound like it.
+- One idea developed deeply beats four ideas summarized. Cut the survey
+  paragraphs and go further on the core question.
 
 STYLE
 - 700 to 1,000 words. Short paragraphs, plain verbs, sentence case headings.
@@ -43,6 +60,10 @@ STYLE
 LINKS (required)
 - Link naturally to exactly ONE DSE Group service page, the one most relevant
   to the topic, inside the body text.
+- ANCHOR TEXT RULE: link anchor text is always descriptive words, such as
+  "AI voice agents" or "reach out to the team". NEVER put a URL, domain, or
+  filename in the visible anchor text. Writing "visit dsegroup.ai/contact.html"
+  is forbidden; write "<a href=...>talk to our team</a>" instead.
 - End with a 2 to 3 sentence closing that invites the reader to
   https://dsegroup.ai/contact.html without hard selling.
 - Treat the three products as separate solutions. Never imply a digital brain
