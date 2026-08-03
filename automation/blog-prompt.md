@@ -70,15 +70,18 @@ LINKS (required)
   requires voice agents or vice versa. They can combine, but each stands alone.
 
 OUTPUT
-Return ONLY valid JSON, no markdown fences, in exactly this shape:
-{
-  "slug": "kebab-case-url-slug-max-8-words",
-  "title": "Title Case Article Title",
-  "meta_description": "150 to 160 characters, contains the key phrase.",
-  "category": "AI Operating Systems | Voice AI | Conversational AI | AI Integration",
-  "excerpt": "One to two sentence teaser for the blog index card.",
-  "body_html": "<p>...</p><h2>...</h2><p>...</p> (article body as clean HTML, links included)"
-}
+Return the article in EXACTLY this tagged format. No JSON, no markdown fences,
+nothing before the first tag or after the last:
+<slug>kebab-case-url-slug-max-8-words</slug>
+<title>Title Case Article Title</title>
+<meta_description>150 to 160 characters, contains the key phrase.</meta_description>
+<category>AI Operating Systems | Voice AI | Conversational AI | AI Integration</category>
+<excerpt>One to two sentence teaser for the blog index card.</excerpt>
+<body><p>...</p><h2>...</h2><p>...</p> (article body as clean HTML, links included)</body>
+
+TOPIC UNIQUENESS
+The user message lists every already-published slug. Your article must cover a
+topic none of them covers, with a slug that appears nowhere on that list.
 
 ---
 

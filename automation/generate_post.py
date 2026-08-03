@@ -19,8 +19,19 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://dsegroup.ai"
 
-def call_model(topic: str) -> dict:
+def existing_posts():
+    return sorted(p.stem for p in (ROOT / "blog" / "posts").glob("*.html"))
+
+def call_model(topic: str, retry_note: str = "") -> dict:
     system = (ROOT / "automation" / "blog-prompt.md").read_text()
+    from datetime import date as _d
+    today = _d.today()
+    user = (
+        f"Today is {today.strftime('%A, %B %d, %Y')}.\n"
+        f"Topic guidance: {topic}\n"
+        f"Already published slugs (NEVER reuse these topics or slugs, pick something new): "
+        f"{', '.join(existing_posts())}\n{retry_note}"
+    )
     req = urllib.request.Request(
         "https://api.anthropic.com/v1/messages",
         headers={
@@ -32,18 +43,21 @@ def call_model(topic: str) -> dict:
             "model": "claude-sonnet-4-6",
             "max_tokens": 4000,
             "system": system,
-            "messages": [{"role": "user", "content": f"Today's topic: {topic}"}],
+            "messages": [{"role": "user", "content": user}],
         }).encode(),
     )
     with urllib.request.urlopen(req) as r:
         text = "".join(b.get("text", "") for b in json.load(r)["content"])
-    text = re.sub(r"^```(json)?|```$", "", text.strip(), flags=re.M).strip()
-    post = json.loads(text)
-    for field in ("slug", "title", "meta_description", "category", "excerpt", "body_html"):
-        assert post.get(field), f"model output missing {field}"
-    assert "\u2014" not in json.dumps(post) and "\u2013" not in json.dumps(post), "dash rule violated"
+    post = {}
+    for field in ("slug", "title", "meta_description", "category", "excerpt", "body"):
+        m = re.search(rf"<{field}>(.*?)</{field}>", text, re.S)
+        assert m, f"model output missing <{field}> tag"
+        post[field] = m.group(1).strip()
+    post["body_html"] = post.pop("body")
+    joined = json.dumps(post)
+    assert "\u2014" not in joined and "\u2013" not in joined, "dash rule violated"
+    assert re.fullmatch(r"[a-z0-9-]+", post["slug"]), f"bad slug: {post['slug']}"
     return post
-
 
 def ping_indexnow(urls) -> None:
     """Best-effort instant-index ping (Bing & friends). Never blocks publishing."""
@@ -114,4 +128,10 @@ def publish(post: dict) -> None:
 
 if __name__ == "__main__":
     topic = sys.argv[1] if len(sys.argv) > 1 else "pick the next topic from the rotation"
-    publish(call_model(topic))
+    post = call_model(topic)
+    if (ROOT / "blog" / "posts" / f"{post['slug']}.html").exists():
+        post = call_model(topic, f"IMPORTANT: your slug '{post['slug']}' is already published. Choose a COMPLETELY DIFFERENT topic and slug.")
+    if (ROOT / "blog" / "posts" / f"{post['slug']}.html").exists():
+        from datetime import date as _d
+        post["slug"] = f"{post['slug']}-{_d.today().strftime('%Y%m%d')}"
+    publish(post)
