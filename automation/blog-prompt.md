@@ -108,10 +108,9 @@ a slug or an angle already covered in the published-slugs list.
    what tasks LLMs are reliably good at for SMBs and where they quietly fail;
    giving the model your business context so outputs stop sounding generic;
    ChatGPT vs Claude for specific business tasks, judged honestly. These
-   articles must TEACH something real the reader can apply the same day. The
-   DSE angle: this is exactly the thinking DSE Group systematizes when it
-   builds AI Operating Systems, where the context, prompts, and workflows are
-   engineered once and the whole company benefits.
+   articles must TEACH something real the reader can apply the same day. The DSE angle for this pillar: link to the CORE program page
+   (https://dsegroup.ai/ai-enablement.html), where DSE Group engineers the
+   context, prompts, and workflows once so the whole company benefits.
 
 3. VOICE AI BY INDUSTRY (Wed). AI phone agents for dental, home services,
    auto, gyms, real estate, restaurants, e-commerce; missed-call economics;
