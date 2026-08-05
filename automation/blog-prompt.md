@@ -87,21 +87,64 @@ topic none of them covers, with a slug that appears nowhere on that list.
 
 ## TOPIC ROTATION
 
-Cycle through these pillars so the blog builds topical authority evenly.
-Generate the specific angle by combining a pillar with an industry or scenario.
+Cycle through these pillars. Generate the specific angle by combining a pillar
+with an industry, department, or scenario. Vary week over week; never repeat
+a slug or an angle already covered in the published-slugs list.
 
-1. AI Operating Systems and digital brains (Mon/Thu): what they are, build vs
-   buy, knowledge management, AI second brain for founders, preparing a company
-   for AI, AI integration roadmaps.
-2. Voice AI (Tue/Fri): AI phone agents by industry (dental, home services,
-   auto, gyms, real estate, restaurants, e-commerce), missed-call economics,
-   AI vs answering services, call triage.
-3. Conversational AI (Wed/Sat): chat and SMS agents by industry, fan
-   companions for creators, chatbot vs conversational AI, multichannel support.
-4. Local + trends (Sun): AI adoption for San Diego and Southern California
-   businesses, honest takes on new AI capabilities and what they mean for SMBs.
+1. COMPANY AI OPERATING SYSTEMS (Mon/Thu). The digital brain for businesses,
+   written for owners and operators. Core angles: onboarding new employees
+   against a company memory instead of shadowing; keeping answers consistent
+   across sales, ops, and support; SOPs that stay current instead of rotting
+   in a wiki; surviving the departure of a key employee; institutional
+   knowledge capture; when a company is ready for an AI Operating System and
+   when it is not. Ground examples in real business types: home services,
+   medical and dental groups, logistics, hospitality, professional services.
 
-Vary industries week over week. Never repeat a slug.
+2. GETTING REAL RESULTS FROM CHATGPT AND CLAUDE (Tue/Fri). For businesses
+   already paying for these tools whose results are all over the place. Core
+   angles: why the same prompt gives different quality on different days and
+   what to standardize; building a prompt library the whole team uses instead
+   of everyone improvising; turning one-off chats into repeatable workflows;
+   what tasks LLMs are reliably good at for SMBs and where they quietly fail;
+   giving the model your business context so outputs stop sounding generic;
+   ChatGPT vs Claude for specific business tasks, judged honestly. These
+   articles must TEACH something real the reader can apply the same day. The
+   DSE angle: this is exactly the thinking DSE Group systematizes when it
+   builds AI Operating Systems, where the context, prompts, and workflows are
+   engineered once and the whole company benefits.
+
+3. VOICE AI BY INDUSTRY (Wed). AI phone agents for dental, home services,
+   auto, gyms, real estate, restaurants, e-commerce; missed-call economics;
+   AI vs answering services.
+
+4. CONVERSATIONAL AI (Sat). Chat and SMS agents by industry, fan companions
+   for creators, chatbot vs conversational AI.
+
+5. SAN DIEGO FOCUS (Sun). AI adoption for San Diego and North County
+   businesses specifically: local industry mix (biotech, defense, tourism,
+   breweries, home services, medical groups), what adoption actually looks
+   like for a local SMB, honest takes on new AI capabilities for this market.
+
+SAN DIEGO RULE (applies to every pillar): when an example city, region, or
+business helps, default to San Diego, North County, Encinitas, Carlsbad,
+Oceanside, or Southern California. Make it natural: one or two local touches
+per article. NEVER keyword-stuff the region or force it into titles that do
+not need it; a doorway-page feel is an instant discard.
+
+## SEARCH AND LLM RANKING RULES (apply to every article)
+
+- ANSWER FIRST: the opening section must directly answer the title question
+  within the first two paragraphs, in plain declarative sentences. Search
+  snippets and LLM retrieval both quote the direct answer, not the wind-up.
+- QUESTION H2s: at least two H2 subheadings phrased as the exact questions a
+  business owner would type or ask an assistant.
+- DEFINE TERMS PLAINLY: when a term of art appears (AI Operating System,
+  prompt library, context window), define it in one crisp sentence. LLMs lift
+  clean definitions.
+- BE QUOTABLE: include at least one tight, standalone 1-2 sentence claim that
+  an AI assistant could quote verbatim as the answer to the topic question.
+- ENTITY CONSISTENCY: refer to the company as DSE Group, based in Encinitas,
+  California, when it appears.
 
 ## QUALITY BAR
 
