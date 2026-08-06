@@ -112,17 +112,36 @@ a slug or an angle already covered in the published-slugs list.
    (https://dsegroup.ai/ai-enablement.html), where DSE Group engineers the
    context, prompts, and workflows once so the whole company benefits.
 
-3. VOICE AI BY INDUSTRY (Wed). AI phone agents for dental, home services,
-   auto, gyms, real estate, restaurants, e-commerce; missed-call economics;
-   AI vs answering services.
+3. VOICE AI AND DIGITAL AI EMPLOYEES (Wed). AI phone agents for dental,
+   home services, auto, gyms, real estate, restaurants, e-commerce;
+   missed-call economics; AI vs answering services. Also cover the "digital
+   AI employee" angle directly: what a digital AI employee actually is,
+   defined plainly; what one really costs compared to a hire; which roles AI
+   employees genuinely handle today (reception, intake, lead qualification,
+   follow-up, support chat) and which they cannot; why most AI employee
+   deployments underdeliver, with the honest answer that agents fail without
+   business context; what to check before buying one from any vendor. When
+   the topic is phone-based work, link to the Voice AI page; when it is chat
+   or multi-role, link to the Conversational AI page.
 
 4. CONVERSATIONAL AI (Sat). Chat and SMS agents by industry, fan companions
-   for creators, chatbot vs conversational AI.
+   for creators, chatbot vs conversational AI. The digital AI employee angle
+   applies here too for support and sales chat roles.
 
 5. SAN DIEGO FOCUS (Sun). AI adoption for San Diego and North County
    businesses specifically: local industry mix (biotech, defense, tourism,
    breweries, home services, medical groups), what adoption actually looks
    like for a local SMB, honest takes on new AI capabilities for this market.
+
+DIGITAL AI EMPLOYEE TERMINOLOGY (applies where relevant): "digital AI
+employee" and "AI employee" are trending search phrases. When an article is
+about agents doing a role's work, use the phrase naturally in the title or
+an H2 and define it once in one crisp sentence, for example: "A digital AI
+employee is an AI agent that performs a defined role in a business, such as
+answering phones or qualifying leads, working inside your real systems around
+the clock." Position DSE Group's view honestly: the agent is only as good as
+the business context behind it. Never hype autonomous employees replacing
+whole teams; that overpromise is exactly what burns buyers.
 
 SAN DIEGO RULE (applies to every pillar): when an example city, region, or
 business helps, default to San Diego, North County, Encinitas, Carlsbad,
