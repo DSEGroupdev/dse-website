@@ -52,6 +52,24 @@ def ask(question: str) -> tuple[bool, str]:
     mentioned = bool(re.search(r"dse\s*group|dsegroup\.ai", raw, re.I))
     return mentioned, text[:400]
 
+
+def email_report(subject: str, body: str) -> None:
+    """Email the report via FormSubmit (same relay as the site forms). Best-effort."""
+    try:
+        req = urllib.request.Request(
+            "https://formsubmit.co/ajax/dan@dsegroupae.com",
+            headers={"Content-Type": "application/json", "Accept": "application/json"},
+            data=json.dumps({
+                "_subject": subject,
+                "name": "DSE Visibility Bot",
+                "message": body,
+            }).encode(),
+        )
+        with urllib.request.urlopen(req, timeout=30) as r:
+            print(f"report emailed to dan@dsegroupae.com: HTTP {r.status}")
+    except Exception as e:
+        print(f"email failed (report still saved): {e}")
+
 def main():
     today = date.today().isoformat()
     lines = [f"# LLM Visibility Report: {today}", ""]
@@ -69,8 +87,10 @@ def main():
         lines += [f"## [{pillar}] {q}", f"Result: {mark}", f"Answer excerpt: {snippet}", ""]
     lines.insert(2, f"**Score: {hits}/{len(QUERIES)} answers mention DSE Group**")
     lines.insert(3, "")
-    (OUT / f"{today}.md").write_text("\n".join(lines))
+    report = "\n".join(lines)
+    (OUT / f"{today}.md").write_text(report)
     print(f"\nScore: {hits}/{len(QUERIES)}  |  report: automation/visibility/{today}.md")
+    email_report(f"DSE LLM Visibility Report {today}: {hits}/{len(QUERIES)}", report)
 
 if __name__ == "__main__":
     main()
