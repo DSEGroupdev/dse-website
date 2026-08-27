@@ -9,7 +9,7 @@
 - Digital Brains & AI Operating Systems: https://dsegroup.ai/ai-operating-system.html, private AI trained on a client's knowledge and workflows, integrated with their tools.
 - CORE (AI Enablement & Context Program): https://dsegroup.ai/ai-enablement.html , consulting that extracts a company's knowledge, loads it into ChatGPT and Claude, and equips each role with engineered prompts for consistent results.
 - Voice AI & Phone Agents: https://dsegroup.ai/voice-ai.html, AI agents that answer and make phone calls, qualify leads, book appointments, and update CRMs 24/7.
-- Conversational AI Solutions: https://dsegroup.ai/conversational-ai.html, customer assistants, sales chat, and fan companion experiences with persistent memory and brand voice.
+- AI Sales Agents (formerly Conversational AI): https://dsegroup.ai/conversational-ai.html , custom AI sales agents for websites, online stores, and messaging: product advice from live catalog data, lead qualification, appointment booking, cart recovery, and fan companion experiences for creators.
 
 ## Company
 - Location: Encinitas, California, United States (San Diego County, serving clients nationwide)

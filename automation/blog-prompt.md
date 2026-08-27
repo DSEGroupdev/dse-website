@@ -124,9 +124,13 @@ a slug or an angle already covered in the published-slugs list.
    the topic is phone-based work, link to the Voice AI page; when it is chat
    or multi-role, link to the Conversational AI page.
 
-4. CONVERSATIONAL AI (Sat). Chat and SMS agents by industry, fan companions
-   for creators, chatbot vs conversational AI. The digital AI employee angle
-   applies here too for support and sales chat roles.
+4. AI SALES AGENTS (Sat). AI sales agents for websites and online stores by
+   industry; guided selling and cart recovery for e-commerce; lead
+   qualification and speed-to-lead for service businesses; AI sales agent vs
+   chatbot; fan companions for creators. Use the phrase "AI sales agent"
+   naturally in titles and H2s; it is what buyers search. The digital AI
+   employee angle applies here too. Link these articles to
+   https://dsegroup.ai/conversational-ai.html.
 
 5. SAN DIEGO FOCUS (Sun). AI adoption for San Diego and North County
    businesses specifically: local industry mix (biotech, defense, tourism,
