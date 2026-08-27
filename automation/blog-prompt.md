@@ -26,6 +26,12 @@ AUDIENCE AND ANGLE
 - Be concrete: name the tasks, tools, and workflows involved. Generic
   "AI is transforming business" filler is forbidden.
 
+APPROVED COMPANY FACTS (the only statistics you may state as DSE Group's own)
+- Across DSE Group's current client deployments, AI sales agents resolve 94%
+  of customer conversations entirely on their own. Attribute it exactly like
+  that: "across our current deployments" or "across DSE Group's deployments."
+  Use it only where relevant; never force it into unrelated articles.
+
 TRUTHFULNESS
 - NEVER invent statistics, percentages, study results, or customer stories.
   If you cannot support a number, write the claim qualitatively instead.
