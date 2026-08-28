@@ -368,3 +368,34 @@ body.page-white .card { background: var(--white); }
   text-decoration-color: var(--gold); text-underline-offset: 3px;
 }
 .article a:not(.btn):hover { color: var(--gold-deep); }
+
+/* ---------- Case studies ---------- */
+.case-hero { position: relative; background: var(--ink); color: var(--white); padding: 150px 0 0; }
+.case-hero .wrap { position: relative; z-index: 2; text-align: center; padding-bottom: 64px; }
+.case-hero-img { width: 100%; max-height: 460px; object-fit: cover; display: block; border-top: 1px solid var(--line-dark); }
+.case-logo { height: 44px; width: auto; margin: 0 auto 26px; display: block; }
+.stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+@media (max-width: 800px) { .stat-grid { grid-template-columns: 1fr; } }
+.stat-card { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 34px 28px; text-align: center; }
+.section.alt .stat-card { background: var(--paper); }
+.stat-card .stat-number {
+  font-family: var(--font-display); font-weight: 800; font-size: clamp(2.2rem, 4.5vw, 3.2rem);
+  line-height: 1; background: var(--gold-grad-h);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.stat-card .stat-label { margin-top: 10px; color: var(--muted); font-size: 0.94rem; }
+.case-quote {
+  max-width: 780px; margin: 0 auto; text-align: center; padding: 8px 24px;
+}
+.case-quote blockquote {
+  font-family: var(--font-display); font-weight: 600; font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+  line-height: 1.4; letter-spacing: -0.01em;
+}
+.case-quote blockquote::before { content: ""; display: block; width: 2px; height: 34px; margin: 0 auto 22px; background: var(--gold-grad); }
+.case-quote cite { display: block; margin-top: 18px; font-style: normal; color: var(--muted); font-size: 0.92rem; }
+.case-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+@media (max-width: 700px) { .case-gallery { grid-template-columns: 1fr; } }
+.case-gallery img { border-radius: var(--radius); border: 1px solid var(--line); width: 100%; }
+.case-card { text-decoration: none; overflow: hidden; padding: 0; }
+.case-card img { width: 100%; height: 210px; object-fit: cover; display: block; }
+.case-card .case-card-body { padding: 26px 28px 30px; }
