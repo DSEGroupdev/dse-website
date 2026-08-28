@@ -373,12 +373,13 @@ body.page-white .card { background: var(--white); }
 .case-hero { position: relative; background: var(--ink); color: var(--white); padding: 150px 0 0; }
 .case-hero .wrap { position: relative; z-index: 2; text-align: center; padding-bottom: 64px; }
 .case-hero-img {
-  width: 100%; aspect-ratio: 21 / 9; height: auto;
-  object-fit: cover; object-position: center 45%;
-  display: block; border-top: 1px solid rgba(255,255,255,0.08);
+  width: 100%; height: auto; max-height: 560px;
+  object-fit: contain; object-position: center;
+  display: block; background: var(--ink);
+  border-top: 1px solid rgba(255,255,255,0.08);
 }
-@media (max-width: 700px) { .case-hero-img { aspect-ratio: 16 / 10; } }
-.case-logo { height: 44px; width: auto; margin: 0 auto 26px; display: block; }
+.case-logo { height: 88px; width: auto; max-width: 78%; object-fit: contain; margin: 0 auto 30px; display: block; }
+@media (max-width: 700px) { .case-logo { height: 64px; } }
 .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
 @media (max-width: 800px) { .stat-grid { grid-template-columns: 1fr; } }
 .stat-card { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 34px 28px; text-align: center; }
@@ -410,8 +411,6 @@ body.page-white .card { background: var(--white); }
 .case-card h3, .case-card p, .case-card span { text-decoration: none; }
 .case-figure { margin-top: 44px; }
 .case-figure img {
-  width: 100%; aspect-ratio: 16 / 7; height: auto;
-  object-fit: cover; object-position: center center;
+  width: 100%; height: auto;
   border-radius: var(--radius); border: 1px solid var(--line); display: block;
 }
-@media (max-width: 700px) { .case-figure img { aspect-ratio: 4 / 3; } }
