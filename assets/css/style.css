@@ -372,7 +372,7 @@ body.page-white .card { background: var(--white); }
 /* ---------- Case studies ---------- */
 .case-hero { position: relative; background: var(--ink); color: var(--white); padding: 150px 0 0; }
 .case-hero .wrap { position: relative; z-index: 2; text-align: center; padding-bottom: 64px; }
-.case-hero-img { width: 100%; max-height: 460px; object-fit: cover; display: block; border-top: 1px solid var(--line-dark); }
+.case-hero-img { width: 100%; max-height: 380px; object-fit: cover; display: block; border-top: 1px solid rgba(255,255,255,0.08); }
 .case-logo { height: 44px; width: auto; margin: 0 auto 26px; display: block; }
 .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
 @media (max-width: 800px) { .stat-grid { grid-template-columns: 1fr; } }
@@ -399,3 +399,6 @@ body.page-white .card { background: var(--white); }
 .case-card { text-decoration: none; overflow: hidden; padding: 0; }
 .case-card img { width: 100%; height: 210px; object-fit: cover; display: block; }
 .case-card .case-card-body { padding: 26px 28px 30px; }
+.case-card h3, .case-card p, .case-card span { text-decoration: none; }
+.case-figure { margin-top: 44px; }
+.case-figure img { width: 100%; max-height: 360px; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--line); display: block; }
