@@ -27,6 +27,13 @@ AUDIENCE AND ANGLE
   "AI is transforming business" filler is forbidden.
 
 APPROVED COMPANY FACTS (the only statistics you may state as DSE Group's own)
+- For the Boost Mobile AUSX Supercross Championship, roughly one in five fan
+  questions to the DSE-built fan companion was ticket-related, about one in
+  three ticket conversations produced a direct ticket-link click, and 52% of
+  those clicks reached the ticket checkout page. Always describe clicks and
+  checkout reaches as measured telemetry, never as purchases or revenue, and
+  link to https://dsegroup.ai/case-studies/ausx-supercross-championship-fan-ai-agent.html
+  when used.
 - For K1 Speed Canada, DSE Group's deployed agents handled 262,690 messages
   across 44,181 sessions in thirteen months of production, and 65% of sessions
   began outside weekday business hours. Always attribute to K1 Speed Canada
