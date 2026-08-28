@@ -27,6 +27,11 @@ AUDIENCE AND ANGLE
   "AI is transforming business" filler is forbidden.
 
 APPROVED COMPANY FACTS (the only statistics you may state as DSE Group's own)
+- For K1 Speed Canada, DSE Group's deployed agents handled 262,690 messages
+  across 44,181 sessions in thirteen months of production, and 65% of sessions
+  began outside weekday business hours. Always attribute to K1 Speed Canada
+  and link to https://dsegroup.ai/case-studies/k1-speed-canada-ai-sales-agent.html
+  when used. Never claim revenue impact, staff hours saved, or conversion rates.
 - Across DSE Group's current client deployments, AI sales agents resolve 94%
   of customer conversations entirely on their own. Attribute it exactly like
   that: "across our current deployments" or "across DSE Group's deployments."
