@@ -142,6 +142,16 @@ a slug or an angle already covered in the published-slugs list.
    the topic is phone-based work, link to the Voice AI page; when it is chat
    or multi-role, link to the Conversational AI page.
 
+4b. AGENTIC COMMERCE (rotate into Sat and Tue slots roughly twice a month).
+   AI buying agents shopping online stores: what agentic commerce means for
+   merchants, why agent checkouts fail (stale feeds, unreadable promotions,
+   ambiguous variants, late totals, human-only checkout, declined agent
+   cards), how to make a catalog agent-readable, agentic commerce protocols,
+   and what store owners should do now. Use the phrase "agentic shopping
+   optimization" and "AI buying agents" naturally; link to
+   https://dsegroup.ai/agentic-shopping-optimization.html . Never claim
+   specific conversion or failure statistics we have not published.
+
 4. AI SALES AGENTS (Sat). AI sales agents for websites and online stores by
    industry; guided selling and cart recovery for e-commerce; lead
    qualification and speed-to-lead for service businesses; AI sales agent vs
