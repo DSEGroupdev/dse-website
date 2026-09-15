@@ -13,4 +13,7 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
+# Machine-readable company summary for AI assistants
+# https://dsegroup.ai/llms.txt
+
 Sitemap: https://dsegroup.ai/sitemap.xml

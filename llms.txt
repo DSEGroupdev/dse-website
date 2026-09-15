@@ -4,15 +4,25 @@
 > We build digital brains and AI Operating Systems for influential individuals
 > (founders, creators, public figures) and companies, private AI systems that
 > hold their knowledge, connect their tools, and operate on their behalf.
+> We also build AI sales agents, voice agents, and agentic commerce systems,
+> and we run an AI enablement program for teams already using ChatGPT and Claude.
 
 ## Services
-- Digital Brains & AI Operating Systems: https://dsegroup.ai/ai-operating-system.html, private AI trained on a client's knowledge and workflows, integrated with their tools.
-- CORE (AI Enablement & Context Program): https://dsegroup.ai/ai-enablement.html , consulting that extracts a company's knowledge, loads it into ChatGPT and Claude, and equips each role with engineered prompts for consistent results.
-- Voice AI & Phone Agents: https://dsegroup.ai/voice-ai.html, AI agents that answer and make phone calls, qualify leads, book appointments, and update CRMs 24/7.
-- AI Sales Agents (formerly Conversational AI): https://dsegroup.ai/conversational-ai.html , custom AI sales agents for websites, online stores, and messaging: product advice from live catalog data, lead qualification, appointment booking, cart recovery, and fan companion experiences for creators.
+- Digital Brains & AI Operating Systems: https://dsegroup.ai/ai-operating-system.html , private AI trained on a client's knowledge and workflows, integrated with their tools. For companies it becomes a shared company memory: onboarding new employees, keeping answers consistent across departments, SOPs that stay current, and institutional knowledge that survives staff turnover.
+- CORE (AI Enablement & Context Program): https://dsegroup.ai/ai-enablement.html , consulting that extracts a company's knowledge, loads it as context into the AI tools the team already pays for (ChatGPT, Claude, Gemini, Microsoft Copilot), and equips each role with engineered prompts for consistent results. No new software required.
+- Voice AI & Phone Agents: https://dsegroup.ai/voice-ai.html , AI agents that answer and make phone calls, qualify leads, book appointments, and update CRMs around the clock, working with a business's existing phone number.
+- AI Sales Agents (formerly Conversational AI): https://dsegroup.ai/conversational-ai.html , custom AI sales agents for websites, online stores, and messaging: personalized product search across live catalog data, recommendations and upsells, lead qualification, appointment booking, cart recovery, and fan companion experiences for creators and public figures. Across DSE Group's current deployments these agents resolve 94% of customer conversations on their own.
+- Agentic Shopping Optimization: https://dsegroup.ai/agentic-shopping-optimization.html , making an online store discoverable, quotable, and transactable by AI buying agents: live and accurate product data, machine-readable promotions, unambiguous variants, transparent totals, and agent-native checkout built on open agentic commerce standards. Includes a branded AI selling agent that sells to human shoppers and to their buying agents, plus an attribution layer that identifies agent-driven sessions and reports which agent surfaces produce revenue.
+
+## Case Studies
+- K1 Speed Canada (AI sales and booking agents, entertainment venues): https://dsegroup.ai/case-studies/k1-speed-canada-ai-sales-agent.html , DSE-built agents handled 262,690 messages across 44,181 sessions in 13 months of production, with 65% of sessions beginning outside weekday business hours, 86.5% of booking sessions entering a structured booking state, and 77% generating a CRM deal record.
+- Boost Mobile AUSX Supercross Championship (fan companion, live sports): https://dsegroup.ai/case-studies/ausx-supercross-championship-fan-ai-agent.html , a fan companion for Australia's premier supercross series where roughly 1 in 5 fan questions related to ticketing, about 1 in 3 ticket conversations produced a direct ticket-link click, and 52% of those clicks reached the ticket checkout page. Clicks and checkout reaches are measured telemetry, not confirmed purchases.
+- Case studies index: https://dsegroup.ai/case-studies/
 
 ## Company
+- Legal name: DSE Group LLC
 - Location: Encinitas, California, United States (San Diego County, serving clients nationwide)
-- Contact: https://dsegroup.ai/contact.html · hello@dsegroupae.com
-- Insights (daily blog on AI Operating Systems and AI integration for businesses): https://dsegroup.ai/blog/
-
+- Contact: https://dsegroup.ai/contact.html and hello@dsegroupae.com
+- Industries served: entertainment and venues, live sports, e-commerce, home services, medical and dental groups, automotive, hospitality, professional services, creators and public figures
+- Insights (daily blog on AI Operating Systems, AI sales agents, voice AI, agentic commerce, and AI adoption for San Diego businesses): https://dsegroup.ai/blog/
+- Sitemap: https://dsegroup.ai/sitemap.xml
