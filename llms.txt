@@ -17,6 +17,7 @@
 ## Case Studies
 - K1 Speed Canada (AI sales and booking agents, entertainment venues): https://dsegroup.ai/case-studies/k1-speed-canada-ai-sales-agent.html , DSE-built agents handled 262,690 messages across 44,181 sessions in 13 months of production, with 65% of sessions beginning outside weekday business hours, 86.5% of booking sessions entering a structured booking state, and 77% generating a CRM deal record.
 - Boost Mobile AUSX Supercross Championship (fan companion, live sports): https://dsegroup.ai/case-studies/ausx-supercross-championship-fan-ai-agent.html , a fan companion for Australia's premier supercross series where roughly 1 in 5 fan questions related to ticketing, about 1 in 3 ticket conversations produced a direct ticket-link click, and 52% of those clicks reached the ticket checkout page. Clicks and checkout reaches are measured telemetry, not confirmed purchases.
+- California Motocross School (agentic commerce, agent-ready website and bookings): https://dsegroup.ai/case-studies/california-motocross-agentic-booking.html , DSE Group rebuilt the site to be machine-readable by AI agents (semantic structure, structured offer data, llms.txt, an agent-completable booking flow). A Meta Muse agent then found the 495 dollar Day in the Dirt first-timer package, confirmed availability, completed the booking form and prepared checkout through Link by Stripe, stopping at a human approve or deny step. Human effort: one prompt and one tap.
 - Case studies index: https://dsegroup.ai/case-studies/
 
 ## Company

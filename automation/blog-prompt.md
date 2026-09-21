@@ -27,6 +27,12 @@ AUDIENCE AND ANGLE
   "AI is transforming business" filler is forbidden.
 
 APPROVED COMPANY FACTS (the only statistics you may state as DSE Group's own)
+- For California Motocross School, DSE Group rebuilt the website to be
+  machine-readable by AI agents, and a Meta Muse agent then completed the
+  booking flow for a 495 dollar session from a single prompt, stopping at a
+  human approval step before payment. Link to
+  https://dsegroup.ai/case-studies/california-motocross-agentic-booking.html
+  when used. Never claim a completed purchase or revenue.
 - For the Boost Mobile AUSX Supercross Championship, roughly one in five fan
   questions to the DSE-built fan companion was ticket-related, about one in
   three ticket conversations produced a direct ticket-link click, and 52% of
